@@ -4,7 +4,6 @@
 #include <vector>
 
 int main() {
-    // Denna övning filtrerar en lokal lista; inlämningens parser ska avvisa fel.
     std::vector<int> values{79, 80, 100, 0, 101};
 
     std::erase_if(values, [](int value) {

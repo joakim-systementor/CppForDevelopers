@@ -12,9 +12,21 @@ int main() {
             return value * 2;
         });
 
+    std::cout << "View:\n";
+    for (int value : view) {
+        std::cout << value << ' ';
+    }
+
     auto result = view | std::ranges::to<std::vector<int>>();
 
+    std::cout << "\nSaved view:\n";
     for (int value : result) {
+        std::cout << value << ' ';
+    }
+
+    std::cout << "\nValues:\n";
+
+    for (int value : values) {
         std::cout << value << ' ';
     }
 
