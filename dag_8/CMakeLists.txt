@@ -24,4 +24,4 @@ course_example(day8_04_shared 04_shared.cpp)
 course_example(day8_05_weak 05_weak.cpp)
 course_example(day8_06_exception 06_exception.cpp)
 
-course_example(day8_extra_20_array extra_20_array.cpp)
+course_example(day8_07_array_cpp20 07_array_cpp20.cpp)

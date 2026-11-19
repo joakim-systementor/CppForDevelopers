@@ -13,7 +13,7 @@ add_executable(day9_03_failing_test 03_failing_test.cpp)
 
 add_executable(day9_04_source_location 04_source_location.cpp)
 
-add_executable(day9_extra_23_expected extra_23_expected.cpp)
+add_executable(day9_05_expected_cpp23 05_expected_cpp23.cpp)
 
 add_executable(day9 main.cpp)
 

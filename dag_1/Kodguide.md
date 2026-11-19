@@ -1,5 +1,7 @@
 # Kodguide dag 1
 
+Grundexemplen utgår från C++17. Datorprojekten byggs med C++23. Nyare standardfunktioner hör till de valbara extraavsnitten efter grundgenomgången.
+
 Källkod och byggfiler delas via GitHub. Kör kommandona från dag_1, där CMakeLists.txt ligger.
 
 Öppna ett delmoment i taget. Varje numrerad cpp-fil är ett eget litet program med en egen `main`.

@@ -1,5 +1,7 @@
 # Kodguide dag 7
 
+Grundexemplen utgår från C++17. Datorprojekten byggs med C++23. Nyare standardfunktioner hör till de valbara extraavsnitten efter grundgenomgången.
+
 Studera ett delmoment i taget och förutsäg utskriften. Varje numrerad cpp-fil har en egen main och körfil. main.cpp är ett lösningsförslag till den sista uppgiften i Övningar.md: skriv eget först, jämför sedan. Filer som innehåller kommenterade fel ska byggas med felen kvar kommenterade i grundspåret.
 
 ## Exempel och förväntningar
@@ -12,7 +14,7 @@ Studera ett delmoment i taget och förutsäg utskriften. Varje numrerad cpp-fil 
 | [04_storage.cpp](04_storage.cpp) | Automatisk/statisk/dynamisk lagring | 10 20 1 2 |
 | [05_array.cpp](05_array.cpp) | new[] och delete[] | 10 20 30 |
 | [06_lifetime.cpp](06_lifetime.cpp) | Scope och säkert pekarmål | 7; 42 |
-| [extra_20_span.cpp](extra_20_span.cpp) | Valbar C++20-vy | 60 |
+| [07_span_cpp20.cpp](07_span_cpp20.cpp) | Valbar C++20-vy | 60 |
 | [main.cpp](main.cpp) | Lösningsförslag till avslutningsövningen | Observed: 21; No value; Sum: 60 |
 
 ## Bygg och kör

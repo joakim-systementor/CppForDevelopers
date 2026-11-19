@@ -36,7 +36,7 @@ Normalisera 20,80,50 till 0.2,0.8,0.5. Separat: ta bort >=80 och visa size före
 
 ## Avslutande uppgift - återskapa main.cpp
 
-Börja med vector<int> {79,80,100,0,101}. Filtrera utanför 0-100 med erase_if, sortera stigande, räkna >=80 med count_if och beräkna mean med accumulate och flyttalsdivision. Om listan är tom, skriv No measurements och undvik division. Återskapa main.cpp själv. Detta är lokal filtrering; ändra inte uppgift 1:s krav att avvisa ogiltiga filrader.
+Börja med vector<int> {79,80,100,0,101}. Filtrera utanför 0-100 med remove_if och erase, sortera stigande, räkna >=80 med count_if och beräkna mean med accumulate och flyttalsdivision. Om listan är tom, skriv No measurements och undvik division. Återskapa main.cpp själv. Detta är lokal filtrering; ändra inte uppgift 1:s krav att avvisa ogiltiga filrader.
 
 Förväntad utskrift med angiven indata:
 
@@ -76,7 +76,7 @@ Jämför med [04_capture.cpp](04_capture.cpp) och bygg egen variant.
 
 ### Del 4 - Omvandla och ta bort
 
-Skapa destination med rätt size. Remove_if ger logiskt slut, erase krymper. Se 06_erase.cpp. C++20 erase_if förenklar borttagningen.
+Skapa destination med rätt size. Remove_if ger logiskt slut, erase krymper. Se 06_erase.cpp. Det valbara extraavsnittet efter grundgenomgången visar C++20-funktionen erase_if.
 
 Jämför med [05_transform.cpp](05_transform.cpp) och bygg egen variant.
 

@@ -1,5 +1,7 @@
 # Kodguide dag 9
 
+Grundexemplen utgår från C++17. Datorprojekten byggs med C++23. Nyare standardfunktioner hör till de valbara extraavsnitten efter grundgenomgången.
+
 Testning, debugging och felsökning. C++23 i hela bygget. Varje numrerad cpp-fil har egen main/körfil. Förutsäg före körning. Övningar.md finns i samma mapp; main.cpp är lösningsförslag till sista uppgiften efter eget försök.
 
 ## Exempel och förväntningar
@@ -10,7 +12,7 @@ Testning, debugging och felsökning. C++23 i hela bygget. Varje numrerad cpp-fil
 | [02_debug.cpp](02_debug.cpp) | Avsiktlig loopbug | Total: 30; rättad kopia: 60 |
 | [03_failing_test.cpp](03_failing_test.cpp) | Avsiktligt rött test | FAIL: 80 must trigger the alarm; status 1 |
 | [04_source_location.cpp](04_source_location.cpp) | C++20-anropsplats | Fyra Caller-rader med anropsplatser och två Inside-rader med samma plats i loggfunktionen |
-| [extra_23_expected.cpp](extra_23_expected.cpp) | Valbart resultat/fel | Value: 80; Error: Expected two integers |
+| [05_expected_cpp23.cpp](05_expected_cpp23.cpp) | Valbart resultat/fel | Value: 80; Error: Expected two integers |
 | [tests/README.md](tests/README.md) | Åtta separata kontraktstester | Ett namngivet CTest-resultat per testprogram |
 | [main.cpp](main.cpp) | Avslutningsövning | 0/79 Normal; 80/100 Alarm; Rejected |
 

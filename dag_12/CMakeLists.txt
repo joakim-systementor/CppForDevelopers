@@ -17,6 +17,6 @@ add_executable(day12_05_transform 05_transform.cpp)
 
 add_executable(day12_06_erase 06_erase.cpp)
 
-add_executable(day12_extra_23_ranges extra_23_ranges.cpp)
-
 add_executable(day12 main.cpp)
+
+add_executable(day12_07_ranges_cpp23 07_ranges_cpp23.cpp)

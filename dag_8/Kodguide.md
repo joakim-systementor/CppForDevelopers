@@ -1,5 +1,7 @@
 # Kodguide dag 8
 
+Grundexemplen utgår från C++17. Datorprojekten byggs med C++23. Nyare standardfunktioner hör till de valbara extraavsnitten efter grundgenomgången.
+
 Studera ett delmoment i taget och förutsäg utskriften. Varje numrerad cpp-fil har en egen main och körfil. main.cpp är ett lösningsförslag till den sista uppgiften i Övningar.md: skriv eget först, jämför sedan. Filer som innehåller kommenterade fel ska byggas med felen kvar kommenterade i grundspåret.
 
 ## Exempel och förväntningar
@@ -12,7 +14,7 @@ Studera ett delmoment i taget och förutsäg utskriften. Varje numrerad cpp-fil 
 | [04_shared.cpp](04_shared.cpp) | Delat ägande | Owners: 2; Value: 42; Owners after scope: 1 |
 | [05_weak.cpp](05_weak.cpp) | Svag observation och lock | Locked: 42; Expired: true |
 | [06_exception.cpp](06_exception.cpp) | Automatisk destruktion vid fel | Acquired; Released; Caught |
-| [extra_20_array.cpp](extra_20_array.cpp) | Valbar C++20-array med delat ägande | 10 0 2 |
+| [07_array_cpp20.cpp](07_array_cpp20.cpp) | Valbar C++20-array med delat ägande | 10 0 2 |
 | [main.cpp](main.cpp) | Lösningsförslag till avslutningsövningen | Observed: 80; Old owner empty: true; New owner: 80; Rejected |
 
 ## Bygg och kör

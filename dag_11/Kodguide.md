@@ -1,5 +1,7 @@
 # Kodguide dag 11
 
+Grundexemplen utgår från C++17. Datorprojekten byggs med C++23. Nyare standardfunktioner hör till de valbara extraavsnitten efter grundgenomgången.
+
 Mallar och STL-behållare. C++23 i hela bygget. Varje numrerad cpp-fil har egen main/körfil. Förutsäg före körning. Övningar.md finns i samma mapp; main.cpp är lösningsförslag till sista uppgiften efter eget försök.
 
 ## Exempel och förväntningar
@@ -9,14 +11,14 @@ Mallar och STL-behållare. C++23 i hela bygget. Varje numrerad cpp-fil har egen 
 | [01_function.cpp](01_function.cpp) | Funktionsmall | 7; 2.5; pear |
 | [02_class.cpp](02_class.cpp) | Klassmall | 2 80; room |
 | [03_vector.cpp](03_vector.cpp) | Sekvens/kapacitet | Size: 3; 20 85 50 |
-| [03_array.cpp](03_array.cpp) | Fast sammanhängande sekvens | Size: 3; 10 25 30 |
-| [03_list.cpp](03_list.cpp) | Länkad sekvens | 10 15 20 30 40; Size: 5 |
-| [span.cpp](span.cpp) | Valbar icke-ägande vy | 60; 61; 62 |
-| [04_map.cpp](04_map.cpp) | Ordnade grupper | 1: 2; 2: 1 |
-| [05_unordered.cpp](05_unordered.cpp) | Hash-uppslag | Lookups: 2 1 |
-| [06_invalidation.cpp](06_invalidation.cpp) | Giltig referens/indexfel | 11; Rejected index |
-| [extra_20_concepts.cpp](extra_20_concepts.cpp) | Valbart typkrav | 7; 7 |
+| [04_invalidation.cpp](04_invalidation.cpp) | Giltig referens/indexfel | 11; Rejected index |
+| [05_array.cpp](05_array.cpp) | Fast sammanhängande sekvens | Size: 3; 10 25 30 |
+| [06_list.cpp](06_list.cpp) | Länkad sekvens | 10 15 20 30 40; Size: 5 |
+| [07_map.cpp](07_map.cpp) | Ordnade grupper | 1: 2; 2: 1 |
+| [08_unordered.cpp](08_unordered.cpp) | Hash-uppslag | Lookups: 2 1 |
 | [main.cpp](main.cpp) | Gruppering | 1: count=2 mean=50; 2: count=1 mean=40 |
+| [09_concepts_cpp20.cpp](09_concepts_cpp20.cpp) | Valbart typkrav | 7; 7 |
+| [10_span_cpp20.cpp](10_span_cpp20.cpp) | Valbar icke-ägande vy | 60; 61; 62 |
 
 ## Bygg och kör
 
@@ -37,16 +39,16 @@ cmake --build build --target day11_01_function
 
 ## Hjälptyper och giltighet
 
-Collection.hpp definierar klassmallen. Measurement.hpp innehåller post, parser och Statistics; huvudövningen använder bara post/statistik. 06_invalidation.cpp läser aldrig ogiltig referens. Concepts är valbart efter grundmallarna.
+Collection.hpp definierar klassmallen. Measurement.hpp innehåller post, parser och Statistics; huvudövningen använder bara post/statistik. 04_invalidation.cpp läser aldrig ogiltig referens. Concepts är valbart efter grundmallarna.
 
 ## Behållare före span
 
 Studera vector, array och list innan span. Vector och array lagrar elementen sammanhängande; list använder länkade noder. Span kan därför visa en rå array, std::array eller std::vector, men inte std::list. Span äger inte data och förlänger inte deras livstid. Reallokering av vector kan göra vyn ogiltig.
 
 ```sh
-./build/day11_03_array.exe
-./build/day11_03_list.exe
-./build/day11_span.exe
+./build/day11_05_array.exe
+./build/day11_06_list.exe
+./build/day11_10_span_cpp20.exe
 ```
 
 ## Gör egna övningar

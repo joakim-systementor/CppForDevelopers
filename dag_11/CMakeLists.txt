@@ -11,18 +11,18 @@ add_executable(day11_02_class 02_class.cpp)
 
 add_executable(day11_03_vector 03_vector.cpp)
 
-add_executable(day11_04_map 04_map.cpp)
+add_executable(day11_04_invalidation 04_invalidation.cpp)
 
-add_executable(day11_05_unordered 05_unordered.cpp)
+add_executable(day11_05_array 05_array.cpp)
 
-add_executable(day11_06_invalidation 06_invalidation.cpp)
+add_executable(day11_06_list 06_list.cpp)
 
-add_executable(day11_extra_20_concepts extra_20_concepts.cpp)
+add_executable(day11_07_map 07_map.cpp)
+
+add_executable(day11_08_unordered 08_unordered.cpp)
 
 add_executable(day11 main.cpp)
 
-add_executable(day11_03_array 03_array.cpp)
+add_executable(day11_09_concepts_cpp20 09_concepts_cpp20.cpp)
 
-add_executable(day11_03_list 03_list.cpp)
-
-add_executable(day11_span span.cpp)
+add_executable(day11_10_span_cpp20 10_span_cpp20.cpp)

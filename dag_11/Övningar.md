@@ -24,7 +24,7 @@ Räkna ID-sekvensen 2,1,2,3 med map och unordered_map. Skriv map sorterat och j�
 
 **Klart när:** 1:1, 2:2, 3:1 i båda.
 
-**Lösningsförslag:** skriv först själv. Jämför sedan med del 3 under Lösningsförslag till delövningarna och [04_map.cpp](04_map.cpp).
+**Lösningsförslag:** skriv först själv. Jämför sedan med del 3 under Lösningsförslag till delövningarna och [07_map.cpp](07_map.cpp).
 
 ## Delövning 4 - Lagring och giltighet
 
@@ -32,7 +32,7 @@ Skapa vector 10,20, reserve(4), ta referens till första, lägg in 30 och ändra
 
 **Klart när:** Giltig referens i just detta fall och avvisat at(9).
 
-**Lösningsförslag:** skriv först själv. Jämför sedan med del 4 under Lösningsförslag till delövningarna och [06_invalidation.cpp](06_invalidation.cpp).
+**Lösningsförslag:** skriv först själv. Jämför sedan med del 4 under Lösningsförslag till delövningarna och [04_invalidation.cpp](04_invalidation.cpp).
 
 ## Avslutande uppgift - återskapa main.cpp
 
@@ -69,15 +69,15 @@ Jämför med [02_class.cpp](02_class.cpp) och bygg egen variant.
 
 ### Del 3 - Behållare för räkning
 
-Öka counts[id]. Map-iteration följer nyckelordning. Använd at(1),at(2),at(3) för stabil hash-jämförelse; anta inte iterationsordning. Se också 05_unordered.cpp.
+Öka counts[id]. Map-iteration följer nyckelordning. Använd at(1),at(2),at(3) för stabil hash-jämförelse; anta inte iterationsordning. Se också 08_unordered.cpp.
 
-Jämför med [04_map.cpp](04_map.cpp) och bygg egen variant.
+Jämför med [07_map.cpp](07_map.cpp) och bygg egen variant.
 
 ### Del 4 - Lagring och giltighet
 
 Ingen reallokering sker från size 2 till 3 med capacity minst 4. Reallokering invalidaterar elementreferenser. Läs inte gammal referens; hämta elementet på nytt.
 
-Jämför med [06_invalidation.cpp](06_invalidation.cpp) och bygg egen variant.
+Jämför med [04_invalidation.cpp](04_invalidation.cpp) och bygg egen variant.
 
 ### Den avslutande uppgiften
 

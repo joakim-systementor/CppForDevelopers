@@ -24,4 +24,4 @@ course_example(day7_04_storage 04_storage.cpp)
 course_example(day7_05_array 05_array.cpp)
 course_example(day7_06_lifetime 06_lifetime.cpp)
 
-course_example(day7_extra_20_span extra_20_span.cpp)
+course_example(day7_07_span_cpp20 07_span_cpp20.cpp)

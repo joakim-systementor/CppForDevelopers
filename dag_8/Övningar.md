@@ -39,7 +39,7 @@ Skapa en C++23-labb. Utgå från dag 7:s beteende och ändra hur resurser ägs, 
 | B | 04_shared.cpp och 05_weak.cpp |
 | C | 01_raii.cpp och 06_exception.cpp |
 
-Extra: [extra_20_array.cpp](extra_20_array.cpp) visar make_shared för arrayer i C++20. Använd delat ägande bara när uppgiften verkligen kräver det.
+Extra: [07_array_cpp20.cpp](07_array_cpp20.cpp) visar make_shared för arrayer i C++20. Använd delat ägande bara när uppgiften verkligen kräver det.
 
 ## Avslutningsövning - återskapa main.cpp
 

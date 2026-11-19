@@ -6,9 +6,11 @@
 int main() {
     std::vector<int> values{79, 80, 100, 0, 101};
 
-    std::erase_if(values, [](int value) {
+    const auto new_end = std::remove_if(values.begin(), values.end(), [](int value) {
         return value < 0 || value > 100;
     });
+
+    values.erase(new_end, values.end());
 
     std::sort(values.begin(), values.end());
 

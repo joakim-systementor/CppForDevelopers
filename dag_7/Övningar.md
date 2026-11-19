@@ -38,7 +38,7 @@ Skapa en egen C++23-labb och rita vilket objekt varje namn hänvisar till. Rått
 | B | 03_const.cpp, 04_storage.cpp och 06_lifetime.cpp |
 | C | 05_array.cpp; projektplanen har ingen enda rätt struktur |
 
-Extra: [extra_20_span.cpp](extra_20_span.cpp) visar en icke-ägande C++20-vy. Den ändrar inte kravet på giltig livstid.
+Extra: [07_span_cpp20.cpp](07_span_cpp20.cpp) visar en icke-ägande C++20-vy. Den ändrar inte kravet på giltig livstid.
 
 ## Avslutningsövning - återskapa main.cpp
 

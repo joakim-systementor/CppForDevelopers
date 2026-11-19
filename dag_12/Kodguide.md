@@ -1,5 +1,7 @@
 # Kodguide dag 12
 
+Grundexemplen utgår från C++17. Datorprojekten byggs med C++23. Nyare standardfunktioner hör till de valbara extraavsnitten efter grundgenomgången.
+
 Standardalgoritmer, iteratorer och lambda. C++23 i hela bygget. Varje numrerad cpp-fil har egen main/körfil. Förutsäg före körning. Övningar.md finns i samma mapp; main.cpp är lösningsförslag till sista uppgiften efter eget försök.
 
 ## Exempel och förväntningar
@@ -12,7 +14,7 @@ Standardalgoritmer, iteratorer och lambda. C++23 i hela bygget. Varje numrerad c
 | [04_capture.cpp](04_capture.cpp) | Kopia/referens | true false |
 | [05_transform.cpp](05_transform.cpp) | Omvandla/summera | 0.2 0.8 0.5; Mean: 50 |
 | [06_erase.cpp](06_erase.cpp) | remove/erase | Before erase: 3; After erase: 2; 20 50 |
-| [extra_23_ranges.cpp](extra_23_ranges.cpp) | Valbara views/to | 160 100 |
+| [07_ranges_cpp23.cpp](07_ranges_cpp23.cpp) | Valbara views/to | 160 100 |
 | [main.cpp](main.cpp) | Algoritmflöde | Values: 0 79 80 100; Alarms: 2; Mean: 64.75 |
 
 ## Bygg och kör

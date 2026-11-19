@@ -48,12 +48,12 @@ Använd din Money-typ eller materialets Money.hpp. Skriv Account själv innan du
 
 | Del | Förslag att jämföra med |
 |---|---|
-| A | [Money.hpp](Money.hpp) och 01_add.cpp |
-| B | 02_compare.cpp och 03_stream.cpp |
-| C | 04_compound.cpp |
+| A | [Money.hpp](Money.hpp) och 02_add.cpp |
+| B | 03_compare.cpp och 04_stream.cpp |
+| C | 01_compound.cpp |
 | D | [Account.hpp](Account.hpp) och [05_account.cpp](05_account.cpp) |
 
-Extra: prova C++20-exemplet [extra_20_compare.cpp](extra_20_compare.cpp). Beskriv vilken ordning medlemsvis jämförelse skapar. Det ingår inte i baskraven.
+Extra: prova C++20-exemplet [06_compare_cpp20.cpp](06_compare_cpp20.cpp). Beskriv vilken ordning medlemsvis jämförelse skapar. Det ingår inte i baskraven.
 
 ## Avslutningsövning - återskapa main.cpp
 
