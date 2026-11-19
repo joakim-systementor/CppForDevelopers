@@ -6,11 +6,12 @@ int main() {
     std::binary_semaphore ready{0};
     int result{};
 
-    std::jthread worker{[&] {
+    std::thread worker{[&] {
         result = 42;
         ready.release();
     }};
 
     ready.acquire();
     std::cout << result << '\n';
+    worker.join();
 }

@@ -32,7 +32,7 @@ void run_pipeline() {
         std::thread second{consume, 1};
         CloseQueueAndJoin finish_second{queue, second};
 
-        for (int value{1}; value <= 6; ++value) {
+        for (int value{1}; value <= 10000; ++value) {
             queue.push(value);
         }
 
@@ -45,8 +45,8 @@ void run_pipeline() {
         }
     }
 
-    std::cout << "Items: " << counts[0] + counts[1] << '\n';
-    std::cout << "Total: " << sums[0] + sums[1] << '\n';
+    std::cout << "Items: " << counts[0] << ' ' << counts[1] << ' ' << counts[0] + counts[1] << '\n';
+    std::cout << "Total: " << sums[0] << ' ' << sums[1] << ' ' << sums[0] + sums[1] << '\n';
 }
 
 int main() {
